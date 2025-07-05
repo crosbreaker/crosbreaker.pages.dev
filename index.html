@@ -1,4 +1,32 @@
 <title>crosbreaker</title>
 <link rel="icon" type="image/x-icon" href="/assets/logo.png">
-<h3>never coming...</h3>
-<a href='https://discord.com/invite/nrMVY29MUb'>join up</a>
+<link rel="stylesheet" href="style.css">
+<html>
+    <body>
+        <div class="logo-container">
+            <img src="assets/chrome.png" class="logo" onclick="spinLogo(this)">
+            <a href="https://crosbreaker.github.io/" class="text-link">crosbreaker</a>
+        </div>
+        <br>
+        <div id="main_page_content">
+            <p>placeholder content</p>
+            <a href="https://google.com/">placeholder hyperlink</a>
+        </div>
+        <br>
+        <hr>
+        <h3>Team members</h3>
+        <div id="team_members">
+            <!--     if you want to be here add yourself in the format of <a href="link to your github"><img src="your pfp"/>your username</a>     -->
+            <a href=""><img src=""/>placeholder team member</a>
+        </div>
+        <hr>
+        <script>
+            let currentRotation = 0;
+
+            function spinLogo(img) {
+                currentRotation += 720;
+                img.style.transform = `rotate(${currentRotation}deg)`;
+            }
+        </script>
+    </body>
+</html>
