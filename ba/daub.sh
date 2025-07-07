@@ -1,4 +1,5 @@
 #!/bin/sh
+# written mostly by HarryJarry1
 # get_stateful take from https://github.com/applefritter-inc/BadApple-icarus
 main(){
 echo   
