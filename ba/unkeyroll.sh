@@ -2,6 +2,7 @@
 
 # This script downloads a recovery key file and applies it to the firmware using futility.  This script is ONLY intended for use on Dedede, Nissa or Corsola. Use at your own risk. I might add more keyrolled devices in the near future
 # Skidded from https://github.com/Cruzy22k/Firmware2 by HarryJarry1
+flashrom --wp-disable
 mkdir /unkeyroll > /dev/null
 DOWNLOADS_DIR="/unkeyroll"
 RECOVERY_KEY_NISSA="https://raw.githubusercontent.com/Cruzy22k/NissaFW2/main/nissa_recovery_v1.vbpubk"
